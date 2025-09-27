@@ -1,7 +1,7 @@
 // pages/home.tsx (Further Updated)
 import { useState } from "react";
 import Header from "../components/layout/Header";
-import Card from "../components/common/Card";
+import Card from "@/components/common/Card";
 import PostModal from "../components/common/PostModal";
 
 const HomePage = () => {
