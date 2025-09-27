@@ -36,7 +36,7 @@ const HomePage = () => {
             <Card key={index} title={post.title} content={post.content} />
           ))}
         M]</div> */}
-        <Card></Card>
+        <Card />
       </main>
     </div>
   );
