@@ -18,7 +18,7 @@ const HomePage = () => {
     <div>
       <Header />
       <main className="container mx-auto mt-8 p-4">
-        <h1 className="text-3xl font-bold mb-6">Home Page</h1>
+        {/* <h1 className="text-3xl font-bold mb-6">Home Page</h1>
         <button
           onClick={() => setIsModalOpen(true)}
           className="px-4 py-2 bg-green-500 text-white rounded mb-6"
@@ -35,7 +35,8 @@ const HomePage = () => {
           {posts.map((post, index) => (
             <Card key={index} title={post.title} content={post.content} />
           ))}
-        </div>
+        M]</div> */}
+        <Card></Card>
       </main>
     </div>
   );

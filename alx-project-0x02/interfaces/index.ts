@@ -3,7 +3,9 @@ export interface CardProps {
   title: string;
   content: string;
 }
-
+export interface PillProps {
+  title: string;
+}
 export interface ButtonProps {
   label: string;
   size?: "small" | "medium" | "large";
